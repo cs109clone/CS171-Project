@@ -55,7 +55,7 @@ We used numerous helpful libraries in this project:
 Upon entering `mainvis.html` from `index.html`, the site is layed out chronologically in one-page format. Scrolling from top to bottom will start the overview of Curry's college career and continue into his time with the Warriors. All graphs are interactive and can be hovered over or clicked on.
 
 ## Process Book
-The link to our process book can be found here.
+The link to our process book can be found [here](http://jasoncui.me/processbook.pdf).
 
 ## Screencast
-The link to our screencast video can be found here.
+The link to our screencast video can be found [here](https://youtu.be/EfGnxDvZqA0).
