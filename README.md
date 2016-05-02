@@ -6,5 +6,7 @@ Our interactive website describes NBA Player Stephen Curry’s basketball stats 
 
 ## Questions We Wanted Answered
 **How good was Stephen Curry in college?**
+
 **How big is his contribution to the Warriors?**
+
 ** So how well (exactly) does Stephen Curry shoot?**
