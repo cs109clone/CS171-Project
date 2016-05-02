@@ -283,7 +283,7 @@
                     <h2 id="yellow-highlight">NBA Teams Stats Distribution</h2>
                     <i class="text-faded">Click on any of the teams to find the data distribution. The circles' sizes and darkness of color are directly correlated to the winning rate of each team. </i>
                     <div><h3 id ="team-name"></h3></div>
-                    <div id="map-pie"></div>
+                    <div id="map-pie" class="wow fadeIn" data-wow-delay="0.3s"></div>
                 </div>
             </div>
         </div>
@@ -312,7 +312,7 @@
 
                         <h2 id="yellow-highlight" class="text-center"> Stephen Curry Shot Chart </h2>
                         <i class="text-faded">Hover over the chart to see Stephen Curry's detailed shot percentages and frequencies. </i>
-                        <div id="court"></div>
+                        <div id="court" class="wow fadeIn" data-wow-delay="0.3s"    ></div>
                     </div>
                 </div>
                 <div class="col-xs-4">
@@ -359,10 +359,10 @@
             <!-- 3s graph and text -->
             <div class="row">
                 <div class="col-md-8">
-                    <div class="nv-box warriors-leaders-vis text-center" style="margin-bottom: 20px;">
+                    <div class="nv-box warriors-leaders-vis text-center wow fadeIn" data-wow-delay="0.3s" style="margin-bottom: 20px;">
                         <h2 id="yellow-highlight" class="text-center" style="margin-top: 5px; margin-bottom: 10px;">2015-16 League Leaders in Threes</h2>
                         <i class="text-faded">Hover over the bars below to view specific tooltip data for each player.</i>
-                        <svg id="leaders-threes" class="wow fadeIn" data-wow-delay="0.3s"></svg>
+                        <svg id="leaders-threes"></svg>
                     </div>
 
                 </div>
@@ -385,7 +385,7 @@
             </div>
 
             <!-- Threes per game graph, 100% width -->
-            <div class="nv-box-threes space-at-bottom warriors-threes-vis text-center">
+            <div class="nv-box-threes space-at-bottom warriors-threes-vis text-center wow fadeIn" data-wow-delay="0.3s">
                 <h2 id="yellow-highlight" style="margin-top: 5px; margin-bottom: 10px;">Curry's Three Pointers Per Game</h2>
                 <svg id="warriors-threes"></svg>
             </div>
@@ -400,7 +400,7 @@
                     </p>
                 </div>
                 <div class="col-md-8">
-                    <div class="nv-box-FGs warriors-leaders-vis text-center" style="margin-bottom: 20px;">
+                    <div class="nv-box-FGs warriors-leaders-vis text-center wow fadeIn" data-wow-delay="0.3s" style="margin-bottom: 20px;">
                         <h2 id="yellow-highlight" class="text-center" style="margin-top: 5px; margin-bottom: 10px;">2015-16 League Leaders in Field Goals</h2>
                         <i class="text-faded">Hover over the bars below to view specific tooltip data for each player.</i>
                         <svg id="leaders-FGs"></svg>
@@ -428,14 +428,14 @@
             <!-- two graphs -->
             <div class="row">
                 <div class="col-md-6">
-                    <div class="nv-box space-at-bottom warriors-leaders-vis text-center" style="margin-bottom: 20px;">
+                    <div class="nv-box space-at-bottom warriors-leaders-vis text-center wow fadeIn" data-wow-delay=".3s" style="margin-bottom: 20px;">
                         <h2 id="yellow-highlight" class="text-center" style="margin-top: 5px; margin-bottom: 10px;">2015-16 League Leaders in Free Throw Percentages</h2>
                         <i class="text-faded">Hover over the bars below to view specific tooltip data for each player.</i>
                         <svg id="leaders-FTPercentage"></svg>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="nv-box space-at-bottom warriors-leaders-vis text-center">
+                    <div class="nv-box space-at-bottom warriors-leaders-vis text-center wow fadeIn" data-wow-delay=".4s">
                         <h2 id="yellow-highlight" class="text-center" style="margin-top: 5px; margin-bottom: 10px;">2015-16 League Leaders in Points Scored Per Game</h2>
                         <i class="text-faded">Hover over the bars below to view specific tooltip data for each player.</i>
                         <svg id="leaders-PPG"></svg>
@@ -466,28 +466,36 @@
             <div class="container">
                 <div class="row space-at-bottom">
                     <div class="col-lg-3 col-md-6 text-center">
+                        <a href="http://www.jasoncui.me/curry-college-data.csv">
                         <div class="service-box">
                             <i class="fa fa-4x fa-database text-secondary"></i>
-                            <h3 class="text-primary" href="jasoncui.me/curry-college-data.csv">Davidson College Data</h3>
+                            <h3 class="text-primary">Davidson College Data</h3>
                         </div>
+                        </a>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
+                        <a href="http://www.jasoncui.me/curry-college-tree.json">
                         <div class="service-box">
-                            <i class="fa fa-4x fa-bar-chart text-secondary" data-wow-delay=".2s" href="jasoncui.me/curry-college-tree.json"></i>
-                            <h3 class="text-primary" href="jasoncui.me/curry-college-tree.json">College Awards Data</h3>
+                            <i class="fa fa-4x fa-bar-chart text-secondary" data-wow-delay=".2s"></i>
+                            <h3 class="text-primary">College Awards Data</h3>
                         </div>
+                        </a>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
+                        <a href="http://jasoncui.me/curry-warriors-data.csv">
                         <div class="service-box">
-                            <i class="fa fa-4x fa-cloud-download text-secondary" data-wow-delay=".3s" href="http://jasoncui.me/curry-warriors-data.csv"></i>
-                            <h3 class="text-primary" href="http://jasoncui.me/curry-warriors-data.csv">Warriors Data</h3>
+                            <i class="fa fa-4x fa-cloud-download text-secondary" data-wow-delay=".3s"></i>
+                            <h3 class="text-primary">Warriors Data</h3>
                         </div>
+                        </a>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
+                        <a href="http://www.jasoncui.me/curry-shot-chart-data.json">
                         <div class="service-box">
-                            <i class="fa fa-4x fa-money wow bounceIn text-secondary" data-wow-delay=".4s" href="jasoncui.me/curry-shot-chart-data.json"></i>
-                            <h3 class="text-primary" href="jasoncui.me/curry-shot-chart-data.json">Shot Chart Data</h3>
+                            <i class="fa fa-4x fa-money wow bounceIn text-secondary" data-wow-delay=".4s" href=""></i>
+                            <h3 class="text-primary">Shot Chart Data</h3>
                         </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -525,11 +533,13 @@
                     </a>
                 </div>
                 <div class="col-md-4">
+                    <a href="https://youtu.be/EfGnxDvZqA0">
                     <div class="service-box">
                         <i class="fa fa-4x fa-video-camera wow bounceIn text-secondary"></i>
                         <h3 class="text-tertiary">Screencast</h3>
                         <p class="text-faded">Video walkthrough of the project.</p>
                     </div>
+                    </a>
                 </div>
                 <div class="col-md-4">
                     <div class="service-box">
