@@ -21,3 +21,8 @@ Overview of the data files is below:
 
 + `curry-college-data.csv` - FG, 3s, and FT data from college
 + `curry-college-tree.json` - json data for rewards and records in college
++ `curry-shot-chart-data.json` - shot chart data
++ `curry-warriors-data.csv` - complete warriors data
++ `map-pie-default-clicked-team.csv`, `map-pie-NBA-teams.csv`, `map-pie-players.csv`, `map-pie-teambar.csv` - data for map pie vis
++ `US-geo.json`, `US-states.csv` - geojson data for map pie vis
++
