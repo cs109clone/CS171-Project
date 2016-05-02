@@ -25,4 +25,18 @@ Overview of the data files is below:
 + `curry-warriors-data.csv` - complete warriors data
 + `map-pie-default-clicked-team.csv`, `map-pie-NBA-teams.csv`, `map-pie-players.csv`, `map-pie-teambar.csv` - data for map pie vis
 + `US-geo.json`, `US-states.csv` - geojson data for map pie vis
-+
+
+## File Structure
+The majority of files within the project are contained within the `curry` folder. `index.html` contains the main index of the page. `index.html` will then link to `mainvis.html` which contains the bulk of the project.
+
+Inside of `curry` we have:
+
++ `css` - css files
++ `data` - all data files
++ `font-awesome` and `fonts` - font files
++ `img` - image files
++ `js` - all js lib files and vis files
++ `less` - less data
++ `logo` - logos for map pie vis
++ `README.md` - this file! 
+
