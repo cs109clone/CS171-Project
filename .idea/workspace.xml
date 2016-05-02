@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b4c8a35-3b5a-4af5-a3b2-54a4395495e0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainvis.html" afterPath="$PROJECT_DIR$/mainvis.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/curry/README.md" afterPath="$PROJECT_DIR$/curry/README.md" />
     </list>
     <ignored path="Curry Test 1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mainvis.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mainvis.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mainvis.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.79130435">
+            <state vertical-scroll-proportion="-9.1">
               <caret line="541" column="87" selection-start-line="541" selection-start-column="87" selection-end-line="541" selection-end-column="87" />
               <folding>
                 <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -46,6 +46,16 @@
                 <element signature="n#style#0;n#h2#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#aside#5;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/curry/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.10169491">
+              <caret line="4" column="545" selection-start-line="4" selection-start-column="545" selection-end-line="4" selection-end-column="545" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -113,6 +123,7 @@
         <option value="$PROJECT_DIR$/curry/css/mainvis.css" />
         <option value="$PROJECT_DIR$/curry/curry_season_points.csv" />
         <option value="$PROJECT_DIR$/mainvis.html" />
+        <option value="$PROJECT_DIR$/curry/README.md" />
       </list>
     </option>
   </component>
@@ -124,7 +135,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="722" />
+    <option name="height" value="714" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -334,7 +345,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="722" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="714" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2046875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -741,7 +752,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mainvis.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79130435">
+        <state vertical-scroll-proportion="-9.1">
           <caret line="541" column="87" selection-start-line="541" selection-start-column="87" selection-end-line="541" selection-end-column="87" />
           <folding>
             <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -761,6 +772,14 @@
             <element signature="n#style#0;n#h2#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#aside#5;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/curry/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10169491">
+          <caret line="4" column="545" selection-start-line="4" selection-start-column="545" selection-end-line="4" selection-end-column="545" />
+          <folding />
         </state>
       </provider>
     </entry>
