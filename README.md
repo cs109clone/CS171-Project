@@ -46,7 +46,7 @@ We used numerous helpful libraries in this project:
 + `d3.js` - helped to make all visualizations possible
 + `d3.tip.js` - easy tooltips
 + `bootstrap` - styling and page layout
-+ 'c3.js' - reusable pie and line charts
-+ 'nvd3.js' - reusable pie and line charts
-+ 'd3pie.js' - reusable pie charts
-+ 'wow.js' - timed animations
++ `c3.js` - reusable pie and line charts
++ `nvd3.js` - reusable pie and line charts
++ `d3pie.js` - reusable pie charts
++ `wow.js` - timed animations
