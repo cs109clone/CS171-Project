@@ -17,3 +17,7 @@ For most of the data, we were able to retrieve the stats from these links -- [fi
 For the visualizations in the Warriors section, most of the data was found simply on ESPN and the NBA website ([link](http://espn.go.com/nba/player/stats/_/id/3975/stephen-curry)). To create the pie charts for the stats breakdown for each time, we stored all the stats for the top 15 players of each NBA team in the players.csv file.
 For the more detailed data (i.e. exact distance and location of shooting), we were able to use the NBA stats API that returned a json data structure of any player given the player ID, season years, and other relevant information for shot charts. The external json data could be found on this [link](http://stats.nba.com/stats/shotchartdetail?Period=0&VsConference=&LeagueID=00&LastNGames=0&TeamID=0&Position=&Location=&Outcome=&ContextMeasure=FGA&DateFrom=&StartPeriod=&DateTo=&OpponentTeamID=0&ContextFilter=&RangeType=&Season=2015-16&AheadBehind=&PlayerID=201939&EndRange=&VsDivision=&PointDiff=&RookieYear=&GameSegment=&Month=0&ClutchTime=&StartRange=&EndPeriod=&SeasonType=Regular+Season&SeasonSegment=&GameID=). This shows Stephen Curry’s detailed shot details for the 2015-2016 season.
 
+Overview of the data files is below:
+
++ `curry-college-data.csv` - FG, 3s, and FT data from college
++ `curry-college-tree.json` - json data for rewards and records in college
