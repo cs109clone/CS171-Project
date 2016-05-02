@@ -50,3 +50,6 @@ We used numerous helpful libraries in this project:
 + `nvd3.js` - reusable pie and line charts
 + `d3pie.js` - reusable pie charts
 + `wow.js` - timed animations
+
+## Site Layout
+Upon entering `mainvis.html` from `index.html`, the site is layed out chronologically in one-page format. Scrolling from top to bottom will start the overview of Curry's college career and continue into his time with the Warriors. All graphs are interactive and can be hovered over or clicked on.
